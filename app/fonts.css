@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Volksans';
+  src: url('/fonts/volksansTest-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VolksansBold';
+  src: url('/fonts/volksansTest-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VolksansLight';
+  src: url('/fonts/volksansTest-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VolksansNormal';
+  src: url('/fonts/volksansTest-Normal.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VolksansRegular';
+  src: url('/fonts/volksansTest-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VolksansSemibold';
+  src: url('/fonts/volksansTest-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TacticSansMedium';
+  src: url('/fonts/TacticSans-Med.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,20 +1,47 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import './fonts.css';
+
+@theme {
+  --font-volksans: 'VolksansNormal', 'VolksansRegular', 'VolksansBold',
+    'VolksansLight', sans-serif;
+  --font-tactics: 'TacticSansMedium', sans-serif;
+  --font-display: var(--font-volksans);
+
+  /* Main Colors */
+  --color-secondary: #171717;
+  --color-secondary-dark: #121212;
+  --color-tetriary: #262624;
+  --color-main: #030303;
+
+  /* Border Colors */
+  --color-border-main: #262626;
+  --color-border-strong: #404040;
+  --color-border-strong-hover: #525252;
+
+  /* Content Colors */
+  --color-content-digital-green: #b5ff4d;
+  --color-content-digital-orange: #ffad33;
+
+  --color-content-disabled: #666662;
+  --color-content-subhed: #9d9d95;
+  --color-content-normal: #ccccc5;
+  --color-content-muted: #e5e5dd;
+  --color-content-strong: #fffff6;
+
+  /* Status Colors */
+  --color-status-success: #495bf2;
+  --color-status-error: #fe474a;
+  --color-status-alert: #ffad33;
+}
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: var(--color-secondary);
     --foreground: #ededed;
   }
 }
@@ -22,5 +49,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-volksans);
 }
