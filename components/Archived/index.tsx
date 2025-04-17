@@ -25,7 +25,7 @@ const Archived = ({ id, leagues }: ArchivedProps) => {
       }`}
     >
       <button
-        className="flex items-center gap-2 text-content-subhed font-semibold text-lg mb-2 hover:cursor-grab"
+        className="flex items-center gap-2 text-content-subhed font-semibold text-lg mb-2 hover:cursor-pointer"
         onClick={() => setIsOpen((prev) => !prev)}
       >
         {isOpen ? (
