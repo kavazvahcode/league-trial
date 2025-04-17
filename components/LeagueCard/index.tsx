@@ -58,7 +58,7 @@ const LeagueCard = ({ league, isDragging }: LeagueCardProps) => {
           <Tooltip.Provider>
             <Tooltip.Root>
               <Tooltip.Trigger asChild>
-                <div className="absolute top-0 right-0 h-full  w-6 bg-tetriary rounded-r-md flex items-center justify-center opacity-0 group-hover:opacity-80 hover:cursor-pointer transition-opacity duration-200">
+                <div className="absolute top-0 right-0 h-full  w-6 bg-tetriary rounded-r-md flex items-center justify-center opacity-0 group-hover:opacity-80 hover:cursor-grab transition-opacity duration-200">
                   <BsGripVertical className="text-white w-4 h-4" />
                 </div>
               </Tooltip.Trigger>
